@@ -64,10 +64,10 @@ li {
     }
 
     .media {
-        margin-top: 2%;
-        width: 90%;
+        margin: 0;
+        width: 100%;
     }
-    
+
     .media img {
         width: 64px;
     }
