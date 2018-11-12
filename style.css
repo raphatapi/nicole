@@ -1,11 +1,23 @@
-body {
+/* body {
     background-image: url("./1cmkfZ.gif");
+} */
+
+section {
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
-    color: greenyellow;
-    background-color: blueviolet;
+    font-family: 'Cinzel', serif;
+    color: #004042;
+    background-color: rgb(208, 195, 219);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 img {
@@ -13,6 +25,18 @@ img {
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
+}
+
+.sec1 {
+    background-image: url("./1cmkfZ.gif");
+}
+
+.sec2 {
+    background-image: url("./neon.jpg");
+}
+
+.sec3 {
+    background-image: url("./green.jpg");
 }
 
 @media (max-width: 575.98px) {
