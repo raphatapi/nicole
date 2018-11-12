@@ -62,4 +62,13 @@ li {
     section {
         padding: 0;
     }
+
+    .media {
+        margin-top: 2%;
+        width: 90%;
+    }
+    
+    .media img {
+        width: 64px;
+    }
 }
