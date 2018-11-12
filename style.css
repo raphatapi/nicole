@@ -14,3 +14,9 @@ img {
     margin-right: auto;
     /* width: 50%; */
 }
+
+@media (max-width: 575.98px) {
+    .container-fluid {
+        padding: 0;
+    }
+}
