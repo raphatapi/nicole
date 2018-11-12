@@ -28,10 +28,9 @@ img {
     width: 30%;
 }
 
-li {
+h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-    list-style-type: none;
+    font-size: x-large;
 }
 
 .sec1 {
@@ -42,7 +41,7 @@ li {
     background-image: url("./neon.jpg");
 }
 
-.media {
+.things {
     margin-top: 10%;
 }
 
@@ -52,7 +51,8 @@ li {
 
 @media (max-width: 575.98px) {
     .container-fluid {
-        padding: 0;
+        margin: 0;
+        /* padding: 0; */
     }
 
     img {
@@ -60,15 +60,24 @@ li {
     }
 
     section {
-        padding: 0;
+        padding: 2% 0 0 0;
     }
 
-    .media {
+    .things {
         margin: 0;
         width: 100%;
+        padding: 0;
     }
 
     .media img {
         width: 64px;
+    }
+
+    p {
+        font-size: .9em;
+    }
+
+    iframe {
+        width: 100%;
     }
 }
