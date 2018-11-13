@@ -2,6 +2,31 @@
     background-image: url("./1cmkfZ.gif");
 } */
 
+.navbar {
+    padding: 0 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.social img {
+    height: 40px;
+}
+
+#facebook {
+    margin: 0 .5rem;
+}
+
 section {
     background-repeat: no-repeat;
 	background-position: center center;
@@ -21,7 +46,7 @@ h1 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-img {
+.headshot {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +70,10 @@ h4 {
     margin-top: 10%;
 }
 
+.media img {
+    width: 30%;
+}
+
 .sec3 {
     background-image: url("./green.jpg");
 }
@@ -52,15 +81,22 @@ h4 {
 @media (max-width: 575.98px) {
     .container-fluid {
         margin: 0;
-        /* padding: 0; */
     }
 
-    img {
-        width: 90%;
+    .navbar {
+        padding: 0 1%;
+    }
+
+    #facebook {
+        margin: 0.5rem 0;
     }
 
     section {
         padding: 2% 0 0 0;
+    }
+
+    .headshot {
+        width: 90%;
     }
 
     .things {
