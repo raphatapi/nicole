@@ -4,6 +4,7 @@
 
 .navbar {
     padding: 0 1rem;
+    background: rgb(0, 182, 182) !important;
 }
 
 .navbar-brand {
@@ -12,19 +13,18 @@
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: center;
-	align-content: center;
+    align-content: center;
+    margin-right: 0;
 }
 
 .logo {
-    margin-left: 5%;
+    margin: 0 0 0 5%;
+    font-family: 'Cinzel', serif;
+    font-size: x-large;
 }
 
-.social img {
-    height: 40px;
-}
-
-#facebook {
-    margin: 0 .5rem;
+.social i {
+    color: white;
 }
 
 section {
@@ -48,9 +48,9 @@ h1 {
 
 .headshot {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3% auto 0 auto;
     width: 30%;
+    border-radius: 50%;
 }
 
 h4 {
@@ -58,11 +58,11 @@ h4 {
     font-size: x-large;
 }
 
-.sec1 {
-    background-image: url("./1cmkfZ.gif");
+#sec1 {
+    background-image: url("./pink.jpg");
 }
 
-.sec2 {
+#sec2 {
     background-image: url("./neon.jpg");
 }
 
@@ -74,7 +74,7 @@ h4 {
     width: 30%;
 }
 
-.sec3 {
+#sec3 {
     background-image: url("./green.jpg");
 }
 
@@ -87,8 +87,14 @@ h4 {
         padding: 0 1%;
     }
 
-    #facebook {
-        margin: 0.5rem 0;
+    .logo {
+        white-space: normal;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 2%;
     }
 
     section {
