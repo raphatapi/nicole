@@ -21,6 +21,12 @@
     margin: 0 0 0 5%;
     font-family: 'Cinzel', serif;
     font-size: x-large;
+    text-shadow: 2px 2px 4px rgb(39, 39, 39);
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.logo:hover {
+    text-shadow: 3px 3px 9px rgb(0, 0, 0);
 }
 
 .social i {
@@ -38,12 +44,17 @@ section {
     padding: 1% 0 1% 0;
 }
 
-h1 {
+#title {
     text-align: center;
     font-family: 'Cinzel', serif;
-    color: #004042;
-    background-color: rgb(208, 195, 219);
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-weight: bold;
+    color: #d0e7e7;
+    text-shadow: 3px 3px 8px rgb(29, 29, 29);
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+#title:hover {
+    text-shadow: 6px 6px 12px rgb(0, 0, 0);
 }
 
 .headshot {
@@ -67,15 +78,24 @@ h4 {
 }
 
 .things {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-.media img {
+.card-deck {
+    margin: 0 3%;
+}
+
+.card img {
     width: 30%;
 }
 
 #sec3 {
     background-image: url("./green.jpg");
+    height: auto;
+}
+
+.card-columns {
+    margin: 0 3%;
 }
 
 @media (max-width: 575.98px) {
@@ -99,19 +119,25 @@ h4 {
 
     section {
         padding: 5% 0 0 0;
+        height: auto;
+    }
+
+    #title {
+        font-size: xx-large;
     }
 
     .headshot {
         width: 90%;
+        margin-bottom: 25%; 
     }
 
     .things {
-        margin: 0;
+        margin: 4% 0 0 0;
         width: 100%;
         padding: 0;
     }
 
-    .media img {
+    .card img {
         width: 64px;
     }
 
