@@ -131,11 +131,12 @@ h4 {
 
     #title {
         font-size: xx-large;
+        margin-top: 5%;
     }
 
     .headshot {
-        width: 90%;
-        margin-bottom: 25%; 
+        width: 80%;
+        margin: 8% auto 25% auto; 
     }
 
     .things {
