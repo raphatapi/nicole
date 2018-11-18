@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-$("#title").arctext({radius: 300});
-
+    $("#title").arctext({
+      radius: 300
+    });
 
      // Add smooth scrolling to all links
     $(".scroll").on('click', function(event) {
