@@ -20,6 +20,8 @@
 .logo {
     margin: 0 0 0 5%;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
+    letter-spacing: 3px;
     font-size: x-large;
     text-shadow: 2px 2px 4px rgb(39, 39, 39);
     transition: text-shadow 0.2s ease-in-out;
@@ -27,6 +29,11 @@
 
 .logo:hover {
     text-shadow: 3px 3px 9px rgb(0, 0, 0);
+}
+
+.nav-item {
+    text-shadow: 2px 2px 4px rgb(39, 39, 39);
+    transition: text-shadow 0.2s ease-in-out;
 }
 
 .social i {
