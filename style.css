@@ -57,7 +57,12 @@ section {
     margin-bottom: 5%;
 }
 
+.carousel-caption {
+    bottom: 100px;
+}
+
 #title {
+    top: 0;
     text-align: center;
     font-family: 'Cinzel', serif;
     font-weight: bold;
@@ -67,9 +72,10 @@ section {
 
 .headshot {
     display: block;
-    margin: 3% auto 0 auto;
-    width: 30%;
+    margin: 2% auto 0 auto;
+    /* width: 30%; */
     border-radius: 50%;
+    height: 50% !important;
 }
 
 #sec2 {
@@ -105,7 +111,11 @@ section {
 }
 
 .card-columns {
-    margin: 0 3%;
+    margin: 0 5%;
+}
+
+.card-img-top {
+    height: 40%;
 }
 
 @media (max-width: 575.98px) {
@@ -129,6 +139,11 @@ section {
 
     .carousel-inner {
         height: 90vh;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
     }
 
     #title {
