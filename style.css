@@ -49,6 +49,12 @@ section {
     margin: 0;
 }
 
+.carousel-item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
 .carousel-inner img {
     height: 100vh;
 }
@@ -58,7 +64,9 @@ section {
 }
 
 .carousel-caption {
-    bottom: 100px;
+    top: 45%;
+    transform: translateY(-50%);
+    bottom: initial;
 }
 
 #title {
@@ -73,9 +81,8 @@ section {
 .headshot {
     display: block;
     margin: 2% auto 0 auto;
-    /* width: 30%; */
     border-radius: 50%;
-    height: 50% !important;
+    height: 25rem !important;
 }
 
 #sec2 {
@@ -142,8 +149,8 @@ section {
     }
 
     .carousel-caption {
-        left: 10%;
-        right: 10%;
+        left: 5%;
+        right: 5%;
     }
 
     #title {
@@ -153,7 +160,8 @@ section {
 
     .headshot {
         width: 80%;
-        margin: 8% auto 25% auto; 
+        margin: 8% auto 25% auto;
+        height: 50% !important;
     }
 
     #sec2 {
@@ -176,5 +184,11 @@ section {
 
     iframe {
         width: 100%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .headshot {
+        height: 30rem !important;
     }
 }
