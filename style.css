@@ -154,7 +154,7 @@ section {
     }
 
     #title {
-        font-size: xx-large;
+        font-size: 1.8em;
         margin-top: 5%;
     }
 
@@ -188,6 +188,10 @@ section {
 }
 
 @media (min-width: 1300px) {
+    #title {
+        font-size: 3em;
+    }
+    
     .headshot {
         height: 30rem !important;
     }
