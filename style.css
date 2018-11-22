@@ -125,6 +125,11 @@ section {
     height: 40%;
 }
 
+.footer {
+    height: 50vh;
+    background-color: darkslategray;
+}
+
 @media (max-width: 575.98px) {
     .container-fluid {
         margin: 0;

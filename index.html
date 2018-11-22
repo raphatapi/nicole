@@ -183,6 +183,11 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="footer">
+            <div id="map"></div>
+        </div>
+    </section>
     
 
     <!-- Bootstrap scripts -->
@@ -194,5 +199,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://tympanus.net/Development/Arctext/js/jquery.arctext.js"></script>
     <script type="text/javascript" src="./script.js"></script>
+
+    <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOrkb7CVujTFUYXfgem1SdSlJufg9cu8E&callback=initMap"
+      async defer></script>
 </body>
 </html>
