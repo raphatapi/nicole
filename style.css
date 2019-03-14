@@ -4,7 +4,11 @@
 
 .navbar {
     padding: 0 1rem;
-    background: rgb(0, 182, 182) !important;
+    border-bottom: 1px solid rgba(141, 141, 141, 0.5);
+    background: white !important;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    padding-bottom: .5%;
 }
 
 .navbar-brand {
@@ -31,13 +35,25 @@
     text-shadow: 3px 3px 9px rgb(0, 0, 0);
 }
 
-.nav-item {
-    text-shadow: 2px 2px 4px rgb(39, 39, 39);
+.scroll {
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+    padding: 0;
+}
+
+.scroll:hover {
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.5);
     transition: text-shadow 0.2s ease-in-out;
+    color: rgb(94, 94, 94) !important;
+}
+
+.dot {
+    color: rgba(88, 88, 88, 0.6);
+    padding: 0 2%;
 }
 
 .social i {
-    color: white;
+    color: rgb(87, 87, 87);
 }
 
 section {
@@ -49,40 +65,33 @@ section {
     margin: 0;
 }
 
-.carousel-item {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.carousel-inner img {
+#sec1 {
     height: 100vh;
 }
 
-.carousel-indicators {
-    margin-bottom: 5%;
+.headline {
+    margin: .5em 0;
 }
 
-.carousel-caption {
-    top: 45%;
-    transform: translateY(-50%);
-    bottom: initial;
+.pink-banner {
+    padding: 0;
 }
 
-#title {
-    top: 0;
+.banner {
+    background-image: url("./pink.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    height: 55vh;
+    width: 100%;
+}
+
+.info {
     text-align: center;
-    font-family: 'Cinzel', serif;
-    font-weight: bold;
-    color: #d0e7e7;
-    text-shadow: 3px 3px 8px rgb(29, 29, 29);
-}
-
-.headshot {
-    display: block;
-    margin: 2% auto 0 auto;
-    border-radius: 50%;
-    height: 25rem !important;
+    margin-top: 1%;
 }
 
 #sec2 {
@@ -125,6 +134,10 @@ section {
     height: 40%;
 }
 
+#sec4 {
+    height: 100vh;
+}
+
 .footer {
     height: 50vh;
     background-color: darkslategray;
@@ -149,10 +162,13 @@ section {
         margin-bottom: 2%;
     }
 
-    .carousel-inner {
+    .carousel-item {
         height: 85vh;
     }
 
+    .carousel-item img {
+        height: 100vh;
+    }
     .carousel-caption {
         left: 5%;
         right: 5%;
