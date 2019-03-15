@@ -70,7 +70,8 @@ section {
 }
 
 .headline {
-    margin: .5em 0;
+    margin: 4% 0 3% 0;
+    text-align: center;
 }
 
 .pink-banner {
@@ -85,13 +86,19 @@ section {
 	background-attachment: fixed;
     width: 100%;
     margin: 0;
-    height: 55vh;
+    height: 60vh;
     width: 100%;
 }
 
 .info {
     text-align: center;
     margin-top: 1%;
+    color: rgb(49, 49, 49);
+}
+
+.bullet {
+    color: rgba(88, 88, 88, 0.6);
+    padding: 0 2%;
 }
 
 #sec2 {
@@ -156,33 +163,18 @@ section {
         white-space: normal;
     }
 
+    .scroll {
+        margin: 1% 0;
+    }
+
     .social {
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 2%;
     }
 
-    .carousel-item {
-        height: 85vh;
-    }
-
-    .carousel-item img {
-        height: 100vh;
-    }
-    .carousel-caption {
-        left: 5%;
-        right: 5%;
-    }
-
-    #title {
-        font-size: 1.8em;
-        margin-top: 5%;
-    }
-
-    .headshot {
-        width: 80%;
-        margin: 8% auto 25% auto;
-        height: 50% !important;
+    .dot {
+        display: none;
     }
 
     #sec2 {
