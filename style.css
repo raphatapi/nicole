@@ -202,6 +202,11 @@ section {
         display: none;
     }
 
+    .carousel {
+        height: 90%;
+        width: 90%;
+    }
+
     #sec2 {
         height: auto;
     }
