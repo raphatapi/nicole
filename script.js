@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-    $("#title").arctext({
-      radius: 300
-    });
+  $('.carousel').carousel();
   
 
      // Add smooth scrolling to all links
