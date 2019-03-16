@@ -31,4 +31,24 @@ $(document).ready(function() {
         return false;
       });
 
+      $(window).scroll(function(){
+    
+        //Calling function to show up button
+        scrollFunction();
+      });
 });
+
+// When the user scrolls down 20px from the top of the document, show the button
+function scrollFunction() {
+  if ($('body').scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      $("#myBtn").fadeIn({queue: false, duration: '1s'});
+  } else {
+      $("#myBtn").fadeOut({queue: false, duration: '1s'});
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  $('html, body').animate({scrollTop : 0},600);
+    return false;
+}
