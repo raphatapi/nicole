@@ -17,22 +17,23 @@
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: center;
-    align-content: center;
+	align-content: center;
     margin-right: 0;
 }
 
 .logo {
-    margin: 0 0 0 5%;
+    margin: 4% 5% 0 5%;
     font-family: 'Cinzel', serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: x-large;
-    text-shadow: 2px 2px 4px rgb(39, 39, 39);
-    transition: text-shadow 0.2s ease-in-out;
+    color: rgb(94, 94, 94);
+    /* font-weight: lighter; */
+    /* letter-spacing: 5px; */
+    font-size: 3rem;
+    /* text-shadow: 2px 2px 4px rgb(39, 39, 39); */
+    transition: text-shadow 0.3s ease-in-out;
 }
 
 .logo:hover {
-    text-shadow: 3px 3px 9px rgb(0, 0, 0);
+    text-shadow: 4px 4px 9px rgb(0, 0, 0);
 }
 
 ul {
@@ -93,7 +94,7 @@ section {
 	background-attachment: fixed;
     width: 100%;
     margin: 0;
-    height: 60vh;
+    height: 57vh;
     width: 100%;
     display: flex;
 	flex-direction: row;
@@ -105,19 +106,19 @@ section {
 
 .carousel {
     height: 80%;
-    width: 35%;
+    width: 33%;
 }
 
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-  }
+}
 
 .info {
     font-family: 'Cinzel', serif;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
     color: rgb(49, 49, 49);
 }
 
