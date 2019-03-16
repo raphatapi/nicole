@@ -139,30 +139,25 @@ section {
 }
 
 #sec2 {
-    background-image: url("./pink.jpg");
+    /* background-image: url("./pink.jpg"); */
     height: 95vh;
 }
 
-#sec2-title {
-    margin-top: 8%;
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 3px 3px 8px rgb(29, 29, 29);
-}
-
-.things {
-    margin: 3% 0;
-}
-
-.card-deck {
-    margin: 0 5%;
-}
-
-.things img {
+.banner-sec2 {
+    background-image: url("./pink.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
     width: 100%;
-    height: 40%;
+    margin: 0;
+    height: 77vh;
+    width: 100%;
+}
+
+.card-sec2 {
+    margin-left: 3%;
+    top: 5%;
 }
 
 #sec3 {
@@ -247,7 +242,5 @@ section {
         font-size: 3em;
     }
     
-    .headshot {
-        height: 30rem !important;
-    }
+    
 }
