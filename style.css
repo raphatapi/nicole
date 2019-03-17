@@ -273,6 +273,10 @@ section {
         display: none;
     }
 
+    #myBtn {
+        visibility: hidden;
+    }
+
     .carousel {
         height: 90%;
         width: 90%;
