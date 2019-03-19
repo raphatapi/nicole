@@ -192,8 +192,8 @@ section {
 .headline-sec2 {
     text-align: center;
     padding-top: 1%; 
-    color: white;
-    font-weight: bold;
+    color: rgb(49, 49, 49);
+    font-weight: lighter;
     font-family: 'Cinzel', serif;
 }
 
@@ -225,16 +225,20 @@ section {
 }
 
 #sec3 {
-    background-image: url("./green.jpg");
-    height: auto;
+    /* background-image: url("./green.jpg"); */
+    height: 95vh;
 }
 
-.card-columns {
-    margin: 0 5%;
+.card-deck {
+    margin: 2%;
 }
 
-.card-img-top {
-    height: 40%;
+.card {
+    width: 19rem;
+}
+
+.card img {
+    height: 40vh;
 }
 
 #sec4 {
