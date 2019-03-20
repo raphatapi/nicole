@@ -238,8 +238,9 @@ section {
 }
 
 .card {
-    /* font-family: 'Cinzel', serif; */
-    font-weight: 500;
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    letter-spacing: 1px;
     /* width: 19rem;
     height: 25%; */
 }
@@ -255,7 +256,6 @@ section {
 }
 
 .card-title {
-    letter-spacing: 1px;
     margin-top: 15%;
 }
 
