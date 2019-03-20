@@ -249,6 +249,15 @@ section {
     height: 55vh;
 }
 
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover {
+    color: rgb(180, 180, 180);
+}
+
 .event-date {
     height: 70px;
     width: 70px;
