@@ -51,6 +51,10 @@ ul {
     margin-top: 1%;
 }
 
+.main {
+    margin-left: 30%;
+}
+
 .scroll {
     font-weight: bold;
     color: rgb(87, 87, 87);
