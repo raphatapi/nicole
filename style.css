@@ -157,7 +157,6 @@ section {
 }
 
 #sec2 {
-    /* background-image: url("./pink.jpg"); */
     height: 95vh;
 }
 
@@ -191,20 +190,16 @@ section {
 }
 
 .video-theatrical {
-    /* clear: both;
-    margin: 2% 0 0 4%; */
     width: 38%;
     height: 80%;
 }
 
 .video {
-    /* margin: 2% 4% 0 0; */
     width: 38%;
     height: 80%;
 }
 
 #sec3 {
-    /* background-image: url("./green.jpg"); */
     height: 95vh;
 }
 
@@ -243,9 +238,10 @@ section {
 }
 
 .event-date {
-    height: 70px;
-    width: 70px;
-    padding-top: 2.5%;
+    height: auto;
+    width: 22%;
+    padding-top: 2%;
+    text-align: center;
 }
 
 .card-title {
@@ -262,7 +258,7 @@ section {
 }
 
 #sec4 {
-    height: 100vh;
+    height: 95vh;
 }
 
 .footer {
