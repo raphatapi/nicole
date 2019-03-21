@@ -22,13 +22,8 @@ nav.navbar:before {
     border-bottom: .8px solid rgba(141, 141, 141, 0.5);
 }
 
-nav.navbar.menu {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
+.logo {
+    padding-left: 0;
 }
 
 ul {
@@ -51,6 +46,10 @@ ul {
 .dot {
     color: rgba(88, 88, 88, 0.6);
     padding: 0 2%;
+}
+
+.social {
+    padding-right: 0;
 }
 
 .social i {
@@ -231,6 +230,7 @@ section {
 
 .card img {
     height: 55vh;
+    opacity: .5;
 }
 
 .card a {
