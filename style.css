@@ -22,37 +22,17 @@ nav.navbar:before {
     border-bottom: .8px solid rgba(141, 141, 141, 0.5);
 }
 
-.navbar-brand {
-    display: flex;
+nav.navbar.menu {
+	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-    margin-right: 0;
-}
-
-.logo {
-    margin: 4% 5% 0 5%;
-    font-family: 'Cinzel', serif;
-    color: rgb(94, 94, 94);
-    /* font-weight: lighter; */
-    /* letter-spacing: 5px; */
-    font-size: 3rem;
-    /* text-shadow: 2px 2px 4px rgb(39, 39, 39); */
-    transition: text-shadow 0.3s ease-in-out;
-}
-
-.logo:hover {
-    text-shadow: 4px 4px 9px rgb(0, 0, 0);
 }
 
 ul {
     margin-top: 1%;
-}
-
-.main {
-    margin-left: 30%;
 }
 
 .scroll {
