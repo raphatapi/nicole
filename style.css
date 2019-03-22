@@ -242,10 +242,18 @@ section {
 }
 
 .event-date {
+<<<<<<< HEAD
     height: auto;
     width: 22%;
     padding-top: 2%;
     text-align: center;
+=======
+    height: 70px;
+    width: 70px;
+    padding: 10px 7px;
+    border-radius: 4px;
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+>>>>>>> 7161fdb2995d2e91bba8ec1ac2dabd9de6dde5db
 }
 
 .card-title {
