@@ -3,11 +3,11 @@
 } */
 
 nav.navbar {
-    padding: 0 2rem;
+    padding: 0 2rem .5% 2rem;
     background: white !important;
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
-    padding-bottom: .5%;
+    /* padding-bottom: .5%; */
     /* position: relative; */
     z-index : 1;
 }
@@ -20,6 +20,10 @@ nav.navbar:before {
     height  : 5px;
     width   : 95%;
     border-bottom: .8px solid rgba(141, 141, 141, 0.5);
+}
+
+.navbar-brand {
+    margin-right: 8.5rem;
 }
 
 .logo {
@@ -275,8 +279,8 @@ section {
         padding: 0 1%;
     }
 
-    .logo {
-        white-space: normal;
+    nav.navbar:before {
+        width: 85%;
     }
 
     .scroll {
@@ -285,8 +289,9 @@ section {
 
     .social {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         margin-bottom: 2%;
+        justify-content: center;
     }
 
     .dot {
