@@ -222,18 +222,31 @@ section {
 
 .badge {
     float: left;
-    background-color: white;
-    color: rgb(49, 49, 49);
-    font-family: 'Bitter', serif;
-    height: 70px;
+}
+
+.badge img{
+    height: 110px;
     border: 1px solid rgba(141, 141, 141, 0.5);
-    width: 70px;
-    padding: 7px 7px;
+    width: 110px;
     border-radius: 4px;
 }
 
 .event-info {
-    margin-left: 7rem;
+    margin-left: 9rem;
+}
+
+a.event-title{
+    text-decoration: inherit;
+    color: rgb(78, 78, 78);
+    font-family: 'Bitter', serif;
+    -webkit-transition: text-shadow .3s all ease;
+    -moz-transition: text-shadow .3s all ease;
+    -o-transition: text-shadow .3s all ease;
+    transition: text-shadow .3s all ease;
+}
+
+a.event-title:hover {
+    text-shadow: 1px 1px 2px pink;
 }
 
 .event-text {
@@ -297,6 +310,10 @@ section {
     .events {
         margin-top: 2%;
         width: 95%;
+    }
+
+    .list-group-item {
+        padding: 12px 8px;
     }
 
     .event-info {
