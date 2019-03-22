@@ -239,18 +239,25 @@ a.event-title{
     text-decoration: inherit;
     color: rgb(78, 78, 78);
     font-family: 'Bitter', serif;
-    -webkit-transition: text-shadow .3s all ease;
-    -moz-transition: text-shadow .3s all ease;
-    -o-transition: text-shadow .3s all ease;
-    transition: text-shadow .3s all ease;
+    -webkit-transition: text-shadow .8s ease;
+    -moz-transition: text-shadow .8s ease;
+    -o-transition: text-shadow .8s ease;
+    transition: text-shadow .8s ease;
 }
 
 a.event-title:hover {
-    text-shadow: 1px 1px 2px pink;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px fuchsia, 0 0 5px red;
 }
 
 .event-text {
     margin: 0;
+}
+
+p.event-text {
+    text-decoration: inherit;
+    color: rgb(78, 78, 78);
+    font-family: 'Bitter', serif;
 }
 
 .event-btn {
@@ -313,7 +320,7 @@ a.event-title:hover {
     }
 
     .list-group-item {
-        padding: 12px 8px;
+        padding: 12px 0;
     }
 
     .event-info {
