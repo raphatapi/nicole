@@ -231,7 +231,7 @@ section {
     padding: .75rem;
 }
 
-#idk322 {
+.past-events-list {
     pointer-events: none;
     opacity: 0.4;
 }
