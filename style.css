@@ -215,14 +215,16 @@ section {
     font-family: 'Cinzel', serif;
 }
 
-.events {
+.events, .past-events {
     margin-bottom: 2%;
     width: 100%;
     padding: 0 1%;
 }
 
-.list-group {
-    width: 48%;
+.events-title, .past-events-title {
+    margin: 2% 0;
+    text-align: center;
+    font-family: 'Cinzel', serif;
 }
 
 .list-group-item {
