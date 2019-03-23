@@ -204,35 +204,50 @@ section {
 }
 
 #sec3 {
-    height: 95vh;
+    min-height: 95vh;
 }
 
 .headline-sec3 {
     text-align: center;
-    padding-top: 2.5%; 
+    padding-top: 2%; 
     color: rgb(49, 49, 49);
     font-weight: lighter;
     font-family: 'Cinzel', serif;
 }
 
 .events {
-    margin-top: 2%;
-    width: 50%;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 0 1%;
+}
+
+.list-group {
+    width: 48%;
+}
+
+.list-group-item {
+    padding: .75rem;
+}
+
+#idk322 {
+    pointer-events: none;
+    opacity: 0.4;
 }
 
 .badge {
     float: left;
+    padding: 0;
 }
 
 .badge img{
-    height: 110px;
+    height: 95px;
+    width: 95px;
     border: 1px solid rgba(141, 141, 141, 0.5);
-    width: 110px;
     border-radius: 4px;
 }
 
 .event-info {
-    margin-left: 9rem;
+    margin-left: 7rem;
 }
 
 a.event-title{
@@ -252,6 +267,7 @@ a.event-title:hover {
 
 .event-text {
     margin: 0;
+    font-size: small;
 }
 
 p.event-text {
