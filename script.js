@@ -36,6 +36,38 @@ $(document).ready(function() {
         //Calling function to show up button
         scrollFunction();
       });
+
+      $(".center").slick({
+        slidesToShow: 3,
+        dots:true,
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+
 });
 
 // When the user scrolls down 20px from the top of the document, show the button

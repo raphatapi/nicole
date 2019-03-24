@@ -69,7 +69,7 @@ ul {
     /* font-size: 20px; */
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    border: none;
+    border: 1px solid white;
     outline: none;
     background-image: url("./pink.jpg");
     background-repeat: no-repeat;
@@ -283,8 +283,23 @@ p.event-text {
 }
 
 #sec4 {
+    background-image: url("./glitter.jpg");
     height: 95vh;
 }
+
+.center {
+    width:90%;
+    margin:50px auto;
+}
+
+.slick-slide{
+    margin: 10px;
+}
+
+.slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
 
 .footer {
     height: 50vh;
