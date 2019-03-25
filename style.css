@@ -288,6 +288,10 @@ p.event-text {
 
 .slide {
     background-image: url("./glitter.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
     margin: 4% 0;
 }
 
