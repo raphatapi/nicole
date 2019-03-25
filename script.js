@@ -45,6 +45,13 @@ $(document).ready(function() {
         autoplaySpeed: 3000,
         responsive: [
           {
+            breakpoint: 2000,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 3,
+            }
+          },
+          {
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,
