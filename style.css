@@ -283,8 +283,12 @@ p.event-text {
 }
 
 #sec4 {
+    min-height: 95vh;
+}
+
+.slide {
     background-image: url("./glitter.jpg");
-    height: 95vh;
+    margin: 4% 0;
 }
 
 .center {
