@@ -286,7 +286,7 @@ p.event-text {
     min-height: 95vh;
 }
 
-.gallery-slide {
+.gallery {
     background-image: url("./glitter.jpg");
     background-repeat: no-repeat;
 	background-position: center center;
