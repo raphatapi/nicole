@@ -316,7 +316,7 @@ p.event-text {
 	background-size: cover;
     background-attachment: fixed; */
     /* opacity: 0.8; */
-    min-height: 100vh;
+    height: 100vh;
 }
 
 footer {

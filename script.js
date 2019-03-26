@@ -4,7 +4,7 @@ $(document).ready(function() {
   
 
      // Add smooth scrolling to all links
-    $(".scroll").on('click', function(event) {
+    $(".scroll,.contact").on('click', function(event) {
   
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
@@ -32,21 +32,21 @@ $(document).ready(function() {
       });
 
 
-      $(".contact").on("click", function(event) {
-        window.setTimeout(function() {
-          offsetAnchor();
-        }, 0);
-      });
+      // $(".contact").on("click", function(event) {
+      //   window.setTimeout(function() {
+      //     offsetAnchor();
+      //   }, 0);
+      // });
 
-      window.setTimeout(offsetAnchor, 0);
+      // window.setTimeout(offsetAnchor, 0);
 
 
       $(window).scroll(function(){
     
         if ($(this).scrollTop() > $(document).height() - $(window).height() - 100) {
-          $('.navbar').css("display", "none");
+          $('.navbar').css("visibility", "hidden");
         } else {
-          $('.navbar').fadeIn();
+          $('.navbar').css("visibility", "visible");
         }
         if ($(this).scrollTop() < 100 || $(this).scrollTop() > $(document).height() - $(window).height() - 100) {
           $('#myBtn').fadeOut();
@@ -104,8 +104,8 @@ function topFunction() {
 }
 
 // When the user clicks on the link, scroll to the top of the hash
-function offsetAnchor() {
-  if (location.hash.length !== 0) {
-    window.scrollTo(window.scrollX, window.scrollY - 70);
-  }
-}
+// function offsetAnchor() {
+//   if (location.hash.length !== 0) {
+//     window.scrollTo(window.scrollX, window.scrollY - 70);
+//   }
+// }
