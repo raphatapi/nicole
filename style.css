@@ -320,7 +320,7 @@ p.event-text {
 }
 
 footer {
-    height: 50vh;
+    /* height: 50vh; */
     color: white;
 }
 
