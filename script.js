@@ -44,9 +44,9 @@ $(document).ready(function() {
       $(window).scroll(function(){
     
         if ($(this).scrollTop() > $(document).height() - $(window).height() - 100) {
-          $('.navbar').css("visibility", "hidden");
+          $('.navbar').css("display", "none");
         } else {
-          $('.navbar').css("visibility", "visible");
+          $('.navbar').css("display", "inherit");
         }
         if ($(this).scrollTop() < 100 || $(this).scrollTop() > $(document).height() - $(window).height() - 100) {
           $('#myBtn').fadeOut();
@@ -101,6 +101,10 @@ $(document).ready(function() {
 function topFunction() {
   $('html, body').animate({scrollTop : 0},900);
     return false;
+}
+
+function bottomFunction() {
+  $("html, body").animate({ scrollTop: document.body.scrollHeight }, 1200);
 }
 
 // When the user clicks on the link, scroll to the top of the hash
