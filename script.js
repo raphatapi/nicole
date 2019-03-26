@@ -31,10 +31,28 @@ $(document).ready(function() {
         return false;
       });
 
+
+      $(".contact").on("click", function(event) {
+        window.setTimeout(function() {
+          offsetAnchor();
+        }, 0);
+      });
+
+      window.setTimeout(offsetAnchor, 0);
+
+
       $(window).scroll(function(){
     
-        //Calling function to show up button
-        scrollFunction();
+        if ($(this).scrollTop() > $(document).height() - $(window).height() - 100) {
+          $('.navbar').css("display", "none");
+        } else {
+          $('.navbar').fadeIn();
+        }
+        if ($(this).scrollTop() < 100 || $(this).scrollTop() > $(document).height() - $(window).height() - 100) {
+          $('#myBtn').fadeOut();
+        } else {
+          $('#myBtn').fadeIn();
+        }
       });
 
       $(".center").slick({
@@ -75,19 +93,19 @@ $(document).ready(function() {
         ]
       });
 
-});
 
-// When the user scrolls down 20px from the top of the document, show the button
-function scrollFunction() {
-  if ($('body').scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      $("#myBtn").fadeIn({queue: false, duration: '1s'});
-  } else {
-      $("#myBtn").fadeOut({queue: false, duration: '1s'});
-  }
-}
+
+});
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  $('html, body').animate({scrollTop : 0},600);
+  $('html, body').animate({scrollTop : 0},900);
     return false;
+}
+
+// When the user clicks on the link, scroll to the top of the hash
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    window.scrollTo(window.scrollX, window.scrollY - 70);
+  }
 }

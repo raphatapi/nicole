@@ -309,9 +309,19 @@ p.event-text {
     border: 2px solid #fff;
   }
 
-.footer {
+#sec5 {
+    background-image: url("./oiMSI2.gif");
+    /* background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    background-attachment: fixed; */
+    /* opacity: 0.8; */
+    min-height: 100vh;
+}
+
+footer {
     height: 50vh;
-    background-color: darkslategray;
+    color: white;
 }
 
 @media (max-width: 575.98px) {
