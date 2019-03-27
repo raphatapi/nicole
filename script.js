@@ -4,7 +4,7 @@ $(document).ready(function() {
   
 
      // Add smooth scrolling to top links
-    $(".scroll,.contact").on('click', function(event) {
+    $(".scroll").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
@@ -20,7 +20,6 @@ $(document).ready(function() {
         } // End if
       });
   
-
 
       // Add smooth scrolling to bottom links
     $(".contact").on('click', function(event) {
@@ -97,7 +96,10 @@ $(document).ready(function() {
         ]
       });
 
-
+    $("#contact-home").on("click", function(event) {
+      event.preventDefault();
+      topFunction();
+    });
 
 });
 

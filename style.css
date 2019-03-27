@@ -324,6 +324,24 @@ footer {
     color: white;
 }
 
+a.contact{
+    text-decoration: inherit;
+    font-weight: bold;
+    color: white;
+    font-family: 'Cinzel', serif;
+    padding: 1%;
+}
+
+.contact:hover {
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.5);
+    transition: text-shadow 0.2s ease-in-out;
+    color: rgb(240, 240, 240) !important;
+}
+
+a#contact-home {
+    cursor: pointer;
+}
+
 @media (max-width: 575.98px) {
     .container-fluid {
         margin: 0;
