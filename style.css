@@ -225,7 +225,15 @@ section {
 }
 
 .list-group-item {
+    margin: 1% 0;
+    box-shadow: 0 10px 6px -6px rgba(33,33,33,.2);
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
     padding: .75rem;
+}
+
+.list-group-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .past-events-list {
@@ -386,7 +394,7 @@ a#contact-home {
     }
 
     .list-group-item {
-        padding: 12px 0;
+        padding: 12px 10px;
     }
 
     .event-info {
