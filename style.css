@@ -206,6 +206,7 @@ section {
 
 .headline-sec3 {
     text-align: center;
+    margin: 10px 0 15px 0;
     padding-top: 2%; 
     color: rgb(49, 49, 49);
     font-weight: lighter;
@@ -222,6 +223,11 @@ section {
     margin: 2% 0;
     text-align: center;
     font-family: 'Cinzel', serif;
+}
+
+.list-group a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .list-group-item {
@@ -257,19 +263,8 @@ section {
     margin-left: 7rem;
 }
 
-a.event-title{
-    text-decoration: inherit;
+.event-title {
     color: rgb(78, 78, 78);
-    font-family: 'Bitter', serif;
-    -webkit-transition: text-shadow .8s ease;
-    -moz-transition: text-shadow .8s ease;
-    -o-transition: text-shadow .8s ease;
-    transition: text-shadow .8s ease;
-}
-
-a.event-title:hover {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px fuchsia, 0 0 5px red;
 }
 
 .event-text {
@@ -278,7 +273,6 @@ a.event-title:hover {
 }
 
 p.event-text {
-    text-decoration: inherit;
     color: rgb(78, 78, 78);
     font-family: 'Bitter', serif;
 }
