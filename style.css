@@ -19,6 +19,7 @@ nav.navbar:before {
     bottom  : 0;
     height  : 5px;
     width   : 95%;
+    margin-left: .8%;
     border-bottom: .8px solid rgba(141, 141, 141, 0.5);
 }
 
@@ -214,7 +215,7 @@ section {
 .events, .past-events {
     margin-bottom: 2%;
     width: 100%;
-    padding: 0 1%;
+    padding: 0 3%;
 }
 
 .events-title, .past-events-title {
