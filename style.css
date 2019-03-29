@@ -19,7 +19,6 @@ nav.navbar:before {
     bottom  : 0;
     height  : 5px;
     width   : 95%;
-    margin-left: .5%;
     border-bottom: .8px solid rgba(141, 141, 141, 0.5);
 }
 
@@ -350,8 +349,12 @@ a#contact-home {
         padding: 0 1%;
     }
 
+    .navbar-nav span {
+        display: none;
+    }
+
     nav.navbar:before {
-        width: 85%;
+        width: 87%;
     }
 
     .scroll {
@@ -363,10 +366,6 @@ a#contact-home {
         flex-direction: row;
         margin-bottom: 2%;
         justify-content: center;
-    }
-
-    .navbar-nav span {
-        display: none;
     }
 
     #myBtn {
@@ -407,6 +406,10 @@ a#contact-home {
 @media (min-width: 1300px) {
     #title {
         font-size: 3em;
+    }
+
+    nav.navbar:before {
+        margin-left: .5%;
     }
     
     
