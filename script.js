@@ -109,6 +109,7 @@ function topFunction() {
     return false;
 }
 
-function bottomFunction() {
-  $("html, body").animate({ scrollTop: document.body.scrollHeight }, 1200);
-}
+// function bottomFunction() {
+//   $("html, body").animate({ scrollTop: document.body.scrollHeight }, 1200);
+//     return false;
+// }
