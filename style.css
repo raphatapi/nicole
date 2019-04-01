@@ -157,7 +157,7 @@ section {
 }
 
 #sec2 {
-    height: 95vh;
+    min-height: 95vh;
 }
 
 .banner-sec2 {
@@ -172,31 +172,11 @@ section {
 }
 
 .bio {
-    margin: 3% 2% 0 2%;
+    margin: 5% 2%;
 }
 
 .bio img {
-    height: 200px;
-}
-
-.videos {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-    align-content: center;
-    margin: 3% 0;
-}
-
-.video-theatrical {
-    width: 38%;
-    height: 80%;
-}
-
-.video {
-    width: 38%;
-    height: 80%;
+    height: 400px;
 }
 
 #sec3 {
@@ -290,7 +270,7 @@ p.event-text {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-    margin: 4% 0;
+    margin: 7% 0;
 }
 
 .center {
@@ -308,7 +288,9 @@ p.event-text {
   }
 
 #sec5 {
-    background-image: url("./nm1.gif");
+    background-color: #2518dbcb;
+    /* background-image: url("./nm1.gif"); */
+    position: relative;
     /* background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -318,7 +300,6 @@ p.event-text {
 }
 
 footer {
-    /* height: 50vh; */
     color: white;
 }
 
@@ -338,6 +319,32 @@ a.contact{
 
 a#contact-home {
     cursor: pointer;
+}
+
+.social-contact {
+    margin-top: 8%;
+}
+
+.social-contact a {
+    color: white;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 6px 0px;
+    margin: 0 1%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.42857;
+}
+
+.footer-copyright {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 575.98px) {
