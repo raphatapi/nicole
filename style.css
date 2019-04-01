@@ -288,7 +288,7 @@ p.event-text {
   }
 
 #sec5 {
-    background-color: #2518dbcb;
+    background-color: #3f51b5;
     /* background-image: url("./nm1.gif"); */
     position: relative;
     /* background-repeat: no-repeat;
@@ -319,6 +319,10 @@ a.contact{
 
 a#contact-home {
     cursor: pointer;
+}
+
+.contact-main {
+    margin-top: 5%;
 }
 
 .social-contact {
