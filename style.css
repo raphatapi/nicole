@@ -332,6 +332,12 @@ a#contact-home {
     box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
 @media (max-width: 575.98px) {
     .container-fluid {
         margin: 0;
@@ -343,10 +349,6 @@ a#contact-home {
 
     .navbar-nav span {
         display: none;
-    }
-
-    nav.navbar:before {
-        width: 87%;
     }
 
     .scroll {
@@ -393,19 +395,20 @@ a#contact-home {
     iframe {
         width: 100%;
     }
+    
+    .copyright {
+        position: initial;
+        width: 100%;
+    }
 
-    .gif {
-        display: none;
+    .btn-floating {
+        margin: 0 25%;
     }
 }
 
 @media (min-width: 1300px) {
     #title {
         font-size: 3em;
-    }
-
-    nav.navbar:before {
-        margin-left: .5%;
     }
     
     
