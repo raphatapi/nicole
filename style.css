@@ -12,16 +12,6 @@ nav.navbar {
     z-index : 1;
 }
 
-nav.navbar:before {
-    content : "";
-    position: absolute;
-    /* left    : 0; */
-    bottom  : 0;
-    height  : 5px;
-    width   : 95%;
-    border-bottom: .8px solid rgba(141, 141, 141, 0.5);
-}
-
 .navbar-brand {
     margin-right: 8.5rem;
 }
@@ -285,21 +275,12 @@ p.event-text {
 .slick-slide img{
     width:100%;
     border: 2px solid #fff;
-  }
-
-#sec5 {
-    background-color: #3f51b5;
-    /* background-image: url("./nm1.gif"); */
-    position: relative;
-    /* background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-    background-attachment: fixed; */
-    /* opacity: 0.8; */
-    min-height: 100vh;
 }
 
 footer {
+    background-image: linear-gradient(to bottom, #3f51b5, #6f7dcc);
+    position: relative;
+    min-height: 100vh;
     color: white;
     display: flex;
 	flex-direction: row;
@@ -335,7 +316,7 @@ a#contact-home {
     margin-top: 5%;
 }
 
-.btn-circle {
+.btn-floating {
     width: 50px;
     height: 50px;
     padding: 6px 0px;
@@ -343,14 +324,12 @@ a#contact-home {
     border-radius: 25px;
     text-align: center;
     font-size: 16px;
-    line-height: 1.42857;
+    line-height: 2.42857;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
 
-.footer-copyright {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.btn-floating:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
 @media (max-width: 575.98px) {
