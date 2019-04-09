@@ -312,8 +312,19 @@ a#contact-home {
     margin-top: 2%;
 }
 
-.social-contact {
-    margin-top: 5%;
+.bottom-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copyright {
+    padding-left: 5%;
+}
+
+.contact-social {
+    padding-right: 2%;
 }
 
 .btn-floating {
@@ -332,11 +343,7 @@ a#contact-home {
     box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
-.copyright {
-    position: absolute;
-    bottom: 0;
-    width: 90%;
-}
+
 
 @media (max-width: 575.98px) {
     .container-fluid {
@@ -396,7 +403,7 @@ a#contact-home {
         width: 100%;
     }
     
-    .copyright {
+    .bottom-footer {
         position: initial;
         width: 100%;
     }
