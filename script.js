@@ -101,6 +101,24 @@ $(document).ready(function() {
       topFunction();
     });
 
+
+    $('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+    });
+    
+    $('.modal-content').resizable({
+      //alsoResize: ".modal-dialog",
+      minHeight: 300,
+      minWidth: 300
+    });
+
+    $('#imagemodal').on('show.bs.modal', function() {
+      $(this).find('.modal-body').css({
+        'max-height': '100%'
+      });
+    });
+
 });
 
 // When the user clicks on the button, scroll to the top of the document
