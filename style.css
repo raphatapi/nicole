@@ -389,8 +389,14 @@ a#contact-home {
         height: auto;
     }
 
+    .bio {
+        margin: 5% 0;
+    }
+
     .bio img {
-        height: 350px;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
     }
 
     .events, .past-events {
