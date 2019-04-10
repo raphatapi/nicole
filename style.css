@@ -166,7 +166,7 @@ section {
 }
 
 .bio img {
-    height: 400px;
+    height: 60vh;
     margin-right: 2%;
     margin-bottom: 5%;
 }
@@ -387,6 +387,10 @@ a#contact-home {
 
     #sec2 {
         height: auto;
+    }
+
+    .bio img {
+        height: 70vh;
     }
 
     .events, .past-events {
