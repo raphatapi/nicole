@@ -104,19 +104,7 @@ $(document).ready(function() {
 
     $('.pop').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#imagemodal').modal('show');   
-    });
-    
-    $('.modal-content').resizable({
-      //alsoResize: ".modal-dialog",
-      minHeight: 300,
-      minWidth: 300
-    });
-
-    $('#imagemodal').on('show.bs.modal', function() {
-      $(this).find('.modal-body').css({
-        'max-height': '100%'
-      });
+			$('#exampleModalLong').modal('show');   
     });
 
 });
