@@ -181,7 +181,7 @@ section {
 } */
 
 .imagepreview {
-    height:auto;
+    max-height: auto;
     width:100%;
 }
 
