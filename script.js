@@ -1,5 +1,24 @@
 $(document).ready(function() {
 
+    formatGoogleCalendar.init({
+      calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/87f23scnm3a94ad3vp0onkbu24@group.calendar.google.com/events?key=AIzaSyAq6AoFc-sRZdyEZWtYFkFPbS-yWO_pUsA',
+      past: true,
+      upcoming: true,
+      sameDayTimes: true,
+      dayNames: true,
+      pastTopN: 5,
+      upcomingTopN: 5,
+      recurringEvents: true, 
+      itemsTagName: 'li class="list-group-item"',
+      upcomingSelector: '#events-upcoming',
+      pastSelector: '#events-past',
+      upcomingHeading: '<h3 class="events-title">Upcoming</h3>',
+      pastHeading: '<h3 class="past-events-title">Past</h3>',
+      format: ['*date*', '*description*', ' at ', '*location*'],
+      timeMin: '2019-01-01T01:00:00-07:00',
+      timeMax: '2019-12-31T01:00:00-07:00'
+    });
+
     $('.carousel').carousel();
   
 
