@@ -14,7 +14,7 @@ $(document).ready(function() {
       pastSelector: '#events-past',
       upcomingHeading: '<h3 class="events-title">Upcoming</h3>',
       pastHeading: '<h3 class="past-events-title">Past</h3>',
-      format: ['*date*', '*description*', ' at ', '*location*'],
+      format: ['*img*', '*date*', '*description*', ' at ', '*location*'],
       timeMin: '2019-01-01T01:00:00-07:00',
       timeMax: '2019-12-31T01:00:00-07:00'
     });

@@ -251,13 +251,18 @@ window.formatGoogleCalendar = function () {
             summary = result.summary || '',
             description = result.description || '',
             location = result.location || '',
+            img = result.attachments[0].title || '',
             i;
-
+        console.log(summary);
+        // var img = result.attachments[0].fileUrl;
+        console.log(img);
         for (i = 0; i < format.length; i++) {
             format[i] = format[i].toString();
 
-            if (format[i] === '*summary*') {
-                output = output.concat('<a href="https://www.google.com/search?q=' + summary + '" target="_blank"><h6 class="summary event-title">' + summary + '</h6></a>');
+            if (format[i] === '*img*') {
+                output = output.concat('<spam class="badge"><img src="' + img + '"></spam>');
+            } else if (format[i] === '*summary*') {
+                output = output.concat('<h6 class="summary event-title">' + summary + '</h6>');
             } else if (format[i] === '*date*') {
                 output = output.concat('<h5 class="date">' + dateFormatted + '</h5>');
             } else if (format[i] === '*description*') {
