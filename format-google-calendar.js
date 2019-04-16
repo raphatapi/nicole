@@ -270,7 +270,7 @@ window.formatGoogleCalendar = function () {
             } else if (format[i] === '*location*') {
                 output = output.concat('<a href="https://www.google.com/maps/dir/?api=1&destination=' + location + '" target="_blank"><p class="location event-text">' + location + '</p></a>');
             } else {
-                if (format[i + 1] === '*location*' && location !== '' || format[i + 1] === '*summary*' && summary !== '' || format[i + 1] === '*date*' && dateFormatted !== '' || format[i + 1] === '*description*' && description !== '') {
+                if (format[i + 1] === '*location*' && location !== '' || format[i + 1] === '*summary*' && summary !== '' || format[i + 1] === '*date*' && dateFormatted !== '' || format[i + 1] === '*description*' && description !== '' || format[i +1] === '*img*' && img !== '') {
 
                     output = output.concat(format[i]);
                 }
