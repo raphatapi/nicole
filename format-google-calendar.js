@@ -253,7 +253,7 @@ window.formatGoogleCalendar = function () {
             location = result.location || '',
             img = result.attachments[0].fileId || '',
             i;
-            
+
         console.log(summary);
         console.log(img);
 
@@ -267,9 +267,9 @@ window.formatGoogleCalendar = function () {
             } else if (format[i] === '*date*') {
                 output = output.concat('<h5 class="date">' + dateFormatted + '</h5>');
             } else if (format[i] === '*description*') {
-                output = output.concat('<h6 class="description event-title">' + description + '</h6>');
+                output = output.concat('<h5 class="description event-title">' + description + '</h5>');
             } else if (format[i] === '*location*') {
-                output = output.concat('<a href="https://www.google.com/maps/dir/?api=1&destination=' + location + '" target="_blank"><p class="location event-text">' + location + '</p></a>');
+                output = output.concat('<a href="https://www.google.com/maps/dir/?api=1&destination=' + location + '" target="_blank"><p class="location event-text">At ' + location + '</p></a>');
             } else {
                 if (format[i + 1] === '*location*' && location !== '' || format[i + 1] === '*summary*' && summary !== '' || format[i + 1] === '*date*' && dateFormatted !== '' || format[i + 1] === '*description*' && description !== '' || format[i +1] === '*img*' && img !== '') {
 
