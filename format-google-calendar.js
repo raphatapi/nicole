@@ -251,16 +251,17 @@ window.formatGoogleCalendar = function () {
             summary = result.summary || '',
             description = result.description || '',
             location = result.location || '',
-            img = result.attachments[0].title || '',
+            img = result.attachments[0].fileId || '',
             i;
+            
         console.log(summary);
-        // var img = result.attachments[0].fileUrl;
         console.log(img);
+
         for (i = 0; i < format.length; i++) {
             format[i] = format[i].toString();
 
             if (format[i] === '*img*') {
-                output = output.concat('<spam class="badge"><img src="' + img + '"></spam>');
+                output = output.concat('<spam class="badge"><img src="https://drive.google.com/uc?id=' + img + '"></spam>');
             } else if (format[i] === '*summary*') {
                 output = output.concat('<h6 class="summary event-title">' + summary + '</h6>');
             } else if (format[i] === '*date*') {
