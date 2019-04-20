@@ -1,15 +1,11 @@
-/* html {
-    overflow: auto;
-} */
-
-body {
+html, body {
     overflow: hidden;
 }
 
 .no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.js #loader { display: block; position: absolute; left: 100px; top: 0;}
 .se-pre-con {
-	position: fixed;
+    position: fixed;
 	left: 0px;
 	top: 0px;
 	width: 100%;
