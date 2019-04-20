@@ -1,9 +1,6 @@
 $(document).ready(function() {
 
-  $(window).on("load", function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");;
-  });
+  
 
   formatGoogleCalendar.init({
       calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/87f23scnm3a94ad3vp0onkbu24@group.calendar.google.com/events?key=AIzaSyAq6AoFc-sRZdyEZWtYFkFPbS-yWO_pUsA',
@@ -143,3 +140,7 @@ function topFunction() {
 //   $("html, body").animate({ scrollTop: document.body.scrollHeight }, 1200);
 //     return false;
 // }
+$(window).on("load", function() {
+  // Animate loader off screen
+  $(".se-pre-con").fadeOut("slow");;
+});
