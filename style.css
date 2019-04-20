@@ -1,4 +1,4 @@
-html, body {
+html {
     overflow: hidden;
 }
 
@@ -70,12 +70,11 @@ ul {
     bottom: 20px;
     right: 25px;
     z-index: 99;
-    /* font-size: 20px; */
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     border: 1px solid white;
     outline: none;
-    background-image: url("./pink.jpg");
+    background-image: url("./pink1.jpg");
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -88,7 +87,6 @@ ul {
     padding: 10px 15px;
     border-radius: 4px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    /* border: 3px solid rgba(0, 0, 0, .6); */
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
@@ -124,7 +122,7 @@ section {
 }
 
 .banner {
-    background-image: url("./pink.jpg");
+    background-image: url("./pink1.jpg");
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -169,7 +167,7 @@ section {
 }
 
 .banner-sec2 {
-    background-image: url("./pink.jpg");
+    background-image: url("./pink1.jpg");
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -285,7 +283,7 @@ p.event-text {
 }
 
 .gallery {
-    background-image: url("./glitter.jpg");
+    background-image: url("./glitter1.jpg");
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
