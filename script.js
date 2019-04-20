@@ -1,10 +1,9 @@
 $(document).ready(function() {
-  $(".se-pre-con").fadeOut("slow");
-  $(window).on("load", function() {
-    // Animate loader off screen
-    
+
+  setTimeout(function(){
+    $(".se-pre-con").fadeOut("slow");
     $('html').css({overflow: 'auto'});
-  });
+  }, 2500);
 
   formatGoogleCalendar.init({
       calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/87f23scnm3a94ad3vp0onkbu24@group.calendar.google.com/events?key=AIzaSyAq6AoFc-sRZdyEZWtYFkFPbS-yWO_pUsA',
