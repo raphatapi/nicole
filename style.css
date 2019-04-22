@@ -21,7 +21,7 @@ html {
 
 
 nav.navbar {
-    padding: 0 2rem .5% 2rem;
+    padding: 0 1rem .5% .5rem;
     background: white !important;
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
@@ -31,7 +31,16 @@ nav.navbar {
 }
 
 .navbar-brand {
-    margin-right: 8.5rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-brand img {
+    display: none !important;
+}
+
+.navbar-brand h1 {
+    font-family: 'Cinzel', serif;
+    text-shadow: -2px 3px 5px rgba(0,0,0,0.5);
 }
 
 .logo {
@@ -139,9 +148,11 @@ section {
 	align-content: center;
 }
 
-.carousel {
-    height: 80%;
-    width: 33%;
+.carousel-item img {
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .carousel-indicators li {
@@ -153,12 +164,17 @@ section {
 .info {
     font-family: 'Cinzel', serif;
     text-align: center;
-    margin-top: 2%;
-    color: rgb(49, 49, 49);
+    margin-top: 5vh;
+    color: white;
+}
+
+.bullet-menu {
+    color: rgb(56, 56, 56);
+    padding: 0 10px;
 }
 
 .bullet {
-    color: rgba(88, 88, 88, 0.6);
+    color: white;
     padding: 0 10px;
 }
 
@@ -387,6 +403,14 @@ a#contact-home {
         padding: 0 1%;
     }
 
+    .navbar-brand img {
+        display: inline-block !important;
+    }
+    
+    .navbar-brand h1 {
+        display: none !important;
+    }
+
     .navbar-nav span {
         display: none;
     }
@@ -407,8 +431,16 @@ a#contact-home {
     }
 
     .carousel {
-        height: 90%;
+        height: 70%;
         width: 90%;
+    }
+
+    .carousel-item img {
+        height: 40vh;
+    }
+
+    .info,.bullet {
+        color: rgb(61, 61, 61);
     }
 
     #sec2 {
