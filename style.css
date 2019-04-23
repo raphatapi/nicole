@@ -41,6 +41,14 @@ nav.navbar {
 .navbar-brand h1 {
     font-family: 'Cinzel', serif;
     text-shadow: -2px 3px 5px rgba(0,0,0,0.5);
+    -webkit-transition: text-shadow 1s ease;
+    -moz-transition: text-shadow 1s ease;
+    -o-transition: text-shadow 1s ease;
+    transition: text-shadow 1s ease;
+}
+
+.navbar-brand h1:hover {
+    text-shadow: none;
 }
 
 .logo {
@@ -430,6 +438,10 @@ a#contact-home {
         visibility: hidden;
     }
 
+    .headline {
+        font-size: xx-large;
+    }
+
     .carousel {
         height: 70%;
         width: 90%;
@@ -439,7 +451,12 @@ a#contact-home {
         height: 40vh;
     }
 
-    .info,.bullet {
+    .info {
+        font-size: larger;
+        color: rgb(61, 61, 61);
+    }
+
+    .bullet {
         color: rgb(61, 61, 61);
     }
 

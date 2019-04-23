@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   setTimeout(function(){
     $(".se-pre-con").fadeOut("slow");
-    $('html').css({overflow: 'auto'});
+    $('html').css({'overflow': 'auto'});
   }, 1500);
 
   formatGoogleCalendar.init({
