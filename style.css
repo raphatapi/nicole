@@ -454,6 +454,7 @@ a#contact-home {
     .info {
         font-size: larger;
         color: rgb(61, 61, 61);
+        margin-bottom: 10%;
     }
 
     .bullet {
