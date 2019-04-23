@@ -496,8 +496,12 @@ a#contact-home {
     }
 
     .badge img {
-        height: 115px;
-        width: 115px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .date {
+        font-size: medium;
     }
 
     .event-info {
