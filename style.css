@@ -31,14 +31,15 @@ nav.navbar {
 }
 
 .navbar-brand {
-    margin-top: 0.5rem;
+    margin-top: 1%;
+    margin-right: 0 !important;
 }
 
 .navbar-brand img {
     display: none !important;
 }
 
-.navbar-brand h1 {
+.navbar-brand h2 {
     font-family: 'Cinzel', serif;
     text-shadow: -2px 3px 5px rgba(0,0,0,0.5);
     -webkit-transition: text-shadow 1s ease;
@@ -47,7 +48,7 @@ nav.navbar {
     transition: text-shadow 1s ease;
 }
 
-.navbar-brand h1:hover {
+.navbar-brand h2:hover {
     text-shadow: none;
 }
 
@@ -202,11 +203,11 @@ section {
 }
 
 .bio {
-    margin: 5% 2%;
+    margin: 3% 0;
 }
 
 .bio img {
-    height: 60vh;
+    height: 68vh;
     margin-right: 2%;
     margin-bottom: 5%;
 }
@@ -415,7 +416,7 @@ a#contact-home {
         display: inline-block !important;
     }
     
-    .navbar-brand h1 {
+    .navbar-brand h2 {
         display: none !important;
     }
 
@@ -443,12 +444,13 @@ a#contact-home {
     }
 
     .carousel {
-        height: 70%;
-        width: 90%;
+        height: 74%;
+        width: 100%;
     }
 
     .carousel-item img {
-        height: 40vh;
+        height: 42vh;
+        width: 100%;
     }
 
     .info {
@@ -473,17 +475,6 @@ a#contact-home {
         height: auto;
         width: 100%;
         margin-right: 0;
-    }
-
-    .pop {
-        width:100%;
-        margin: 5% auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
     }
 
     .events, .past-events {

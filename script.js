@@ -127,7 +127,7 @@ $(document).ready(function() {
 
 
     $('.pop').on('click', function() {
-			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('.imagepreview').attr('src', './Nicole_Marcks_2019_Resume.jpg');
 			$('#exampleModalLong').modal('show');   
     });
 
