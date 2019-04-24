@@ -161,19 +161,14 @@ section {
     background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-attachment: fixed;
-}
-
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
+    background-attachment: fixed;
 }
 
 .info {
     font-family: 'Cinzel', serif;
+    font-size: 250%;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 3%;
     color: white;
 }
 
@@ -204,6 +199,10 @@ section {
 
 .bio {
     margin: 3% 0;
+}
+
+.bio h1 {
+    font-family: 'Cinzel', serif;
 }
 
 .bio img {
@@ -522,6 +521,10 @@ a#contact-home {
         font-size: 3em;
     }
     
+    .info {
+        margin-top: 4%;
+        font-size: 300%;
+    }
     
 }
 
