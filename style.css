@@ -64,7 +64,8 @@ ul {
     color: rgb(87, 87, 87);
     font-family: 'Cinzel', serif;
     padding: .5%;
-    text-shadow: -2px 1px 3px rgba(0,0,0,0.5);
+    font-size: x-large;
+    text-shadow: -2px 1px 3px rgba(0,0,0,0.3);
     -webkit-transition: text-shadow 1s ease;
     -moz-transition: text-shadow 1s ease;
     -o-transition: text-shadow 1s ease;
@@ -171,7 +172,7 @@ section {
 
 .bullet-menu {
     color: rgb(56, 56, 56);
-    padding: 0 10px;
+    padding: 6px 10px;
 }
 
 .bullet {
