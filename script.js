@@ -84,15 +84,17 @@ $(document).ready(function() {
 
       $(".center").slick({
         slidesToShow: 3,
-        dots:true,
+        dots:false,
         centerMode: true,
         autoplay: true,
         autoplaySpeed: 3000,
+        variableWidth: true,
+        adaptiveHeight: true,
         responsive: [
           {
             breakpoint: 2000,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 3,
             }
           },
