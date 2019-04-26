@@ -42,10 +42,10 @@ nav.navbar {
 .navbar-brand h2 {
     font-family: 'Cinzel', serif;
     text-shadow: -2px 3px 5px rgba(0,0,0,0.5);
-    -webkit-transition: text-shadow 1s ease;
-    -moz-transition: text-shadow 1s ease;
-    -o-transition: text-shadow 1s ease;
-    transition: text-shadow 1s ease;
+    -webkit-transition: text-shadow .5s ease;
+    -moz-transition: text-shadow .5s ease;
+    -o-transition: text-shadow .5s ease;
+    transition: text-shadow .5s ease;
 }
 
 .navbar-brand h2:hover {
@@ -64,12 +64,17 @@ ul {
     color: rgb(87, 87, 87);
     font-family: 'Cinzel', serif;
     padding: .5%;
-    font-size: x-large;
+    font-size: larger;
     text-shadow: -2px 1px 3px rgba(0,0,0,0.3);
     -webkit-transition: text-shadow 1s ease;
     -moz-transition: text-shadow 1s ease;
     -o-transition: text-shadow 1s ease;
     transition: text-shadow 1s ease;
+}
+
+.bullet-menu {
+    color: rgb(56, 56, 56);
+    padding: 4px 10px;
 }
 
 .social {
@@ -170,11 +175,6 @@ section {
     color: white;
 }
 
-.bullet-menu {
-    color: rgb(56, 56, 56);
-    padding: 6px 10px;
-}
-
 .bullet {
     color: white;
     padding: 0 10px;
@@ -207,6 +207,11 @@ section {
     height: 68vh;
     margin-right: 2%;
     margin-bottom: 5%;
+}
+
+.card-text {
+    font-family: 'Cinzel', serif;
+    margin-top: 1%;
 }
 
 .imagepreview {
@@ -460,7 +465,7 @@ a#contact-home {
     .info {
         font-size: larger;
         color: rgb(61, 61, 61);
-        margin-bottom: 10%;
+        margin: 8% 5%;
     }
 
     .bullet {
@@ -476,9 +481,10 @@ a#contact-home {
     }
 
     .bio img {
-        height: auto;
-        width: 100%;
+        height: 80vh;
+        width: auto;
         margin-right: 0;
+        float: none;
     }
 
     .events, .past-events {
@@ -522,8 +528,8 @@ a#contact-home {
 }
 
 @media (min-width: 1300px) {
-    #title {
-        font-size: 3em;
+    .scroll {
+        font-size: x-large;
     }
     
     .info {
