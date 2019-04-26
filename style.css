@@ -465,7 +465,7 @@ a#contact-home {
     .info {
         font-size: larger;
         color: rgb(61, 61, 61);
-        margin: 8% 1.5%;
+        margin: 5% 2%;
     }
 
     .bullet {
@@ -481,8 +481,8 @@ a#contact-home {
     }
 
     .bio img {
-        height: 60vh;
-        width: auto;
+        height: auto;
+        width: 100%;
         margin-right: 0;
     }
 
