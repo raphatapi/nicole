@@ -2,6 +2,10 @@ html {
     overflow: hidden;
 }
 
+body {
+    font-family: 'Cinzel', serif;
+}
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0;}
 .se-pre-con {
@@ -281,6 +285,7 @@ section {
 
 .date {
     margin-top: inherit;
+    font-size: medium;
 }
 
 .event-info {
@@ -289,6 +294,7 @@ section {
 
 .event-title {
     color: rgb(78, 78, 78);
+    font-size: large;
 }
 
 .event-text {
