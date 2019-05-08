@@ -255,7 +255,7 @@ window.formatGoogleCalendar = function () {
             i;
 
         console.log(summary);
-        console.log(img);
+        // console.log(img);
 
         for (i = 0; i < format.length; i++) {
             format[i] = format[i].toString();
