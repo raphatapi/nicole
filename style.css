@@ -347,7 +347,7 @@ p.event-text {
 }
 
 footer {
-    /* background-image: linear-gradient(to bottom, #3f51b5, #6f7dcc); */
+    background-image: linear-gradient(to bottom, #3f51b5, #6f7dcc);
     position: relative;
     min-height: 100vh;
     color: white;
@@ -365,8 +365,8 @@ footer {
 }
 
 .main-footer {
-    background-image: linear-gradient(to bottom, #3f51b5, #6f7dcc);
-    /* width: 150%; */
+    /* background-image: linear-gradient(to bottom, #3f51b5, #6f7dcc); */
+    width: 150%;
 }
 
 a.contact{
@@ -395,7 +395,7 @@ a#contact-home {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 60%;
 }
 
 .copyright {
@@ -423,11 +423,11 @@ a#contact-home {
 }
 
 .side-footer {
-    background-image: url("https://media.giphy.com/media/TL0x5DUqbjz1us7rgG/giphy.gif");
+    background-image: url("https://media.giphy.com/media/XDA9QbRrmgcuk8A8Gb/giphy.gif");
     background-repeat: no-repeat;
 	/* background-position: center center; */
-	background-size: contain;
-	/* background-attachment: fixed; */
+	background-size: cover;
+    /* background-attachment: fixed; */
 }
 
 
@@ -533,6 +533,10 @@ a#contact-home {
 
     iframe {
         width: 100%;
+    }
+
+    .side-footer {
+        display: none;
     }
     
     .bottom-footer {
