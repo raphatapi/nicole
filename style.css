@@ -311,6 +311,12 @@ p.event-text {
     margin-top: 8%;
 }
 
+.famke img {
+    height: 50vh;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
 #sec4 {
     min-height: 95vh;
 }
