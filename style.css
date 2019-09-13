@@ -483,7 +483,7 @@ a#contact-home {
 
     .carousel-item img {
         height: 60vh;
-        margin-left: 7.5%;
+        margin-left: 12%;
         margin-top: 2%;
     }
 
@@ -499,7 +499,7 @@ a#contact-home {
     }
 
     #sec1, #sec2 {
-        height: 90vh;
+        height: 100%;
     }
 
     .bio {
