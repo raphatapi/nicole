@@ -174,7 +174,7 @@ section {
     font-family: 'Cinzel', serif;
     font-size: 250%;
     text-align: center;
-    margin-top: 3%;
+    /* margin-top: 3%; */
     color: white;
 }
 
@@ -498,7 +498,7 @@ a#contact-home {
     }
 
     #sec1, #sec2 {
-        height: auto;
+        height: 90vh;
     }
 
     .bio {
@@ -561,7 +561,7 @@ a#contact-home {
     }
     
     .info {
-        margin-top: 4%;
+        margin-top: 1%;
         font-size: 300%;
     }
     
