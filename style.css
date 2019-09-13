@@ -172,9 +172,9 @@ section {
 
 .info {
     font-family: 'Cinzel', serif;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
-    /* margin-top: 3%; */
+    margin-top: 1%;
     color: white;
 }
 
@@ -483,7 +483,7 @@ a#contact-home {
 
     .carousel-item img {
         height: 60vh;
-        margin-left: 8%;
+        margin-left: 7.5%;
         margin-top: 2%;
     }
 
@@ -562,7 +562,7 @@ a#contact-home {
     }
     
     .info {
-        margin-top: 1%;
+        margin-top: 2%;
         font-size: 300%;
     }
     
