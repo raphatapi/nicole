@@ -482,15 +482,16 @@ a#contact-home {
     } */
 
     .carousel-item img {
-        height: 70vh;
-        margin-left: 18%;
+        height: 60vh;
+        margin-left: 8%;
         margin-top: 2%;
     }
 
     .info {
-        font-size: x-large;
+        font-size: larger;
         color: white;
-        margin: 5% 2%;
+        margin: 5% 1%;
+        font-weight: bold;
     }
 
     .bullet {
