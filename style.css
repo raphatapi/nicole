@@ -582,7 +582,18 @@ a#contact-home {
     }
 
     .famke-contact {
-        margin: 3% 0;
+        margin: 3% 1%;
+
+    }
+
+    .tmg-logo img {
+        float: unset;
+        width: 80px;
+    }
+
+    .tmg-info {
+        margin-left: 1%;
+        line-height: 1.3rem;
     }
 
     .side-footer {
