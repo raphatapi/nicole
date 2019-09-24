@@ -581,8 +581,8 @@ a#contact-home {
         width: 100%;
     }
 
-    .famke-contact {
-        margin: 3% 1%;
+    .famke-contact, .tmg {
+        padding: 3% 1%;
 
     }
 
